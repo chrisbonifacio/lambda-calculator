@@ -37,11 +37,16 @@ button {
   color: #fff;
   font-size: 1.6rem;
   border: none;
-  border-radius: 50%;
+  border-radius: 50px;
   height: 75px;
   width: 30%;
   box-shadow: 5px 5px 10px 2px #000;
   cursor: pointer;
+}
+
+.numbers-button[data-number="0"] {
+  width: 66%;
+  max-width: none;
 }
 
 .buttons-container {
@@ -74,7 +79,6 @@ button {
 }
 .numbers-button button {
   width: 100%;
-  border-radius: 50%;
   background: #113c78;
 }
 
@@ -94,7 +98,6 @@ button {
 .operators-button button {
   background: #3db5e5;
   width: 100%;
-  border-radius: 50%;
 }
 
 .specials-container {
@@ -113,5 +116,4 @@ button {
 .specials-button button {
   background: #2061b0;
   width: 100%;
-  border-radius: 50%;
 }
